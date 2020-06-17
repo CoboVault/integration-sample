@@ -28,10 +28,10 @@ One QRCode contains following fields:
 
 ```
 {
-  "total": 5,// length of all fragments,
-  "index": 1,// current fragment index number,
-  "checkSum": "" // a md5 string for whole data,
-  "value": "" // a base64 string for a fragment of data,
+  "total": 5,
+  "index": 0,
+  "checkSum": "",
+  "value": "",
   "compress": true,
   "valueType": "protobuf" 
 }
@@ -40,7 +40,7 @@ One QRCode contains following fields:
 
 >total: identify the length of all fragments
 >
->index: identify current fragment index
+>index: identify current fragment index, starts from 0
 >
 >checksum: a md5 string for whole data
 >
